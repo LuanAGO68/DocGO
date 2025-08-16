@@ -1,0 +1,201 @@
+<mxfile host="65bd71144e">
+    <diagram name="Page-1" id="jrOHQPBL3BqADZbZcYCE">
+        <mxGraphModel dx="1525" dy="2038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="aqcjktQyWdQe-DoEnFvB-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="-190" y="-310" width="3000" height="1450" as="geometry"/>
+                </mxCell>
+                <mxCell id="aqcjktQyWdQe-DoEnFvB-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1100" y="-100" width="380" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="aqcjktQyWdQe-DoEnFvB-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="100" width="1140" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="aqcjktQyWdQe-DoEnFvB-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-60" y="510" width="2570" height="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="PHEsR2FqFUUeM-2ZwMLI-5" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Authentication&amp;nbsp;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-35" y="540" width="310" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="PHEsR2FqFUUeM-2ZwMLI-6" value="- Đăng nhập" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="PHEsR2FqFUUeM-2ZwMLI-5" vertex="1">
+                    <mxGeometry y="30" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="PHEsR2FqFUUeM-2ZwMLI-7" value="- Đăng xuất" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="PHEsR2FqFUUeM-2ZwMLI-5" vertex="1">
+                    <mxGeometry y="60" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="PHEsR2FqFUUeM-2ZwMLI-8" value="- Đăng ký tài khoản" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="PHEsR2FqFUUeM-2ZwMLI-5" vertex="1">
+                    <mxGeometry y="90" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="BRLKW3zVaem5cjiiKzaP-4" value="User Management Service" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="910" width="320" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="BRLKW3zVaem5cjiiKzaP-7" value="&lt;ul&gt;&lt;li&gt;CRUD người dùng &amp;amp; hồ sơ&amp;nbsp;&lt;/li&gt;&lt;li&gt;Quản lý quyền (cấp/gỡ vai trò)&amp;nbsp;&lt;/li&gt;&lt;li&gt;Phê duyệt tài khoản mới&amp;nbsp;&lt;/li&gt;&lt;li&gt;Upload avatar &amp;amp; metadata&amp;nbsp;&lt;/li&gt;&lt;li&gt;Đồng bộ roles với Identity Service&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="BRLKW3zVaem5cjiiKzaP-4" vertex="1">
+                    <mxGeometry y="30" width="320" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="BRLKW3zVaem5cjiiKzaP-8" value="Contract Management" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="540" width="390" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="BRLKW3zVaem5cjiiKzaP-9" value="&lt;ul&gt;&lt;li&gt;CRUD hợp đồng + trạng thái (draft, pending, active, expired)&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Xem chi tiết hợp đồng &amp;amp; attachments&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Chuyển sang “chờ phê duyệt”&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Tải file hợp đồng qua signed URL&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Phát event cho Approval, Versioning, Notification, OCR&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="BRLKW3zVaem5cjiiKzaP-8" vertex="1">
+                    <mxGeometry y="30" width="390" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="BRLKW3zVaem5cjiiKzaP-12" value="Versioning / Document History" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="540" width="290" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="BRLKW3zVaem5cjiiKzaP-13" value="&lt;ul&gt;&lt;li&gt;Lưu snapshot hợp đồng&amp;nbsp;&lt;/li&gt;&lt;li&gt;So sánh phiên bản, xem lịch sử&amp;nbsp;&lt;/li&gt;&lt;li&gt;Khôi phục phiên bản cũ&amp;nbsp;&lt;/li&gt;&lt;li&gt;Cung cấp metadata/preview cho UI&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="BRLKW3zVaem5cjiiKzaP-12" vertex="1">
+                    <mxGeometry y="30" width="290" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="BRLKW3zVaem5cjiiKzaP-16" value="Commenting / Collaboration" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1055" y="540" width="265" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="BRLKW3zVaem5cjiiKzaP-17" value="&lt;ul&gt;&lt;li&gt;Bình luận, chỉnh sửa, xóa comment&amp;nbsp;&lt;/li&gt;&lt;li&gt;Threading, mention, attach file nhỏ&amp;nbsp;&lt;/li&gt;&lt;li&gt;Realtime push comment qua WebSocket&amp;nbsp;&lt;/li&gt;&lt;li&gt;Quản lý báo cáo, flag nội dung&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="BRLKW3zVaem5cjiiKzaP-16" vertex="1">
+                    <mxGeometry y="30" width="265" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="BRLKW3zVaem5cjiiKzaP-20" value="Approval Workflow Service" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1360" y="540" width="250" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="BRLKW3zVaem5cjiiKzaP-21" value="&lt;ul&gt;&lt;li&gt;Phê duyệt đa bước (theo template)&amp;nbsp;&lt;/li&gt;&lt;li&gt;Approve/Reject hợp đồng + lý do Lưu audit trail, timestamp&amp;nbsp;&lt;/li&gt;&lt;li&gt;Hỗ trợ escalation &amp;amp; reminders&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="BRLKW3zVaem5cjiiKzaP-20" vertex="1">
+                    <mxGeometry y="30" width="250" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="BRLKW3zVaem5cjiiKzaP-24" value="Reminder / Scheduler Service" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1650" y="540" width="290" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="BRLKW3zVaem5cjiiKzaP-25" value="&lt;ul&gt;&lt;li&gt;Tạo/huỷ/xem reminder&amp;nbsp;&lt;/li&gt;&lt;li&gt;Scheduler trigger và push task vào queue&amp;nbsp;&lt;/li&gt;&lt;li&gt;API xem reminder sắp tới trên dashboard/UI&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="BRLKW3zVaem5cjiiKzaP-24" vertex="1">
+                    <mxGeometry y="30" width="290" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="BRLKW3zVaem5cjiiKzaP-28" value="E-Signature Integration Service" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1970" y="545" width="340" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="BRLKW3zVaem5cjiiKzaP-29" value="&lt;ul&gt;&lt;li&gt;Gửi yêu cầu ký điện tử (DocuSign, Adobe, Viettel)&amp;nbsp;&lt;/li&gt;&lt;li&gt;Nhận webhook/callback trạng thái ký&amp;nbsp;&lt;/li&gt;&lt;li&gt;Lưu payload + cập nhật trạng thái&amp;nbsp;&lt;/li&gt;&lt;li&gt;API theo dõi tiến trình ký&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="BRLKW3zVaem5cjiiKzaP-28" vertex="1">
+                    <mxGeometry y="30" width="340" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="BRLKW3zVaem5cjiiKzaP-32" value="Notification Service" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-35" y="740" width="295" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="BRLKW3zVaem5cjiiKzaP-33" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Gửi thông báo email/SMS/push/in-app&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Realtime push cho&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;UI Lưu log gửi để tra cứu&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Hỗ trợ template &amp;amp; đa ngôn ngữ&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="BRLKW3zVaem5cjiiKzaP-32" vertex="1">
+                    <mxGeometry y="30" width="295" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="BRLKW3zVaem5cjiiKzaP-36" value="Reporting &amp;amp; Analytics Service" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="740" width="330" height="150" as="geometry">
+                        <mxRectangle x="520" y="745" width="250" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="BRLKW3zVaem5cjiiKzaP-37" value="&lt;ul&gt;&lt;li&gt;API thống kê hợp đồng, thời gian xử lý, user activity&amp;nbsp;&lt;/li&gt;&lt;li&gt;Export CSV/XLSX&amp;nbsp;&lt;/li&gt;&lt;li&gt;Precompute &amp;amp; cache metrics cho dashboard&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="BRLKW3zVaem5cjiiKzaP-36" vertex="1">
+                    <mxGeometry y="30" width="330" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="BRLKW3zVaem5cjiiKzaP-40" value="File Storage / Asset Service" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="740" width="290" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="BRLKW3zVaem5cjiiKzaP-41" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Quản lý file, signed URL upload/download&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Quyền truy cập file theo role&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Quét malware khi upload&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Hỗ trợ versioning file&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="BRLKW3zVaem5cjiiKzaP-40" vertex="1">
+                    <mxGeometry y="30" width="290" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Ob3bMCQDeqxFeO93eVG-5" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;API Gateway - NestJS&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="915" y="130" width="750" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Ob3bMCQDeqxFeO93eVG-6" value="&lt;span style=&quot;font-size: 10pt; font-family: Arial;&quot; data-sheets-root=&quot;1&quot;&gt;- Cung cấp endpoint duy nhất cho UI: gom các API (ví dụ ContractDetailView) thành payload tối ưu cho frontend&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="5Ob3bMCQDeqxFeO93eVG-5" vertex="1">
+                    <mxGeometry y="30" width="750" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Ob3bMCQDeqxFeO93eVG-7" value="- Xác thực sơ bộ JWT, kiểm tra quyền truy cập trước khi gọi service nội bộ." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="5Ob3bMCQDeqxFeO93eVG-5" vertex="1">
+                    <mxGeometry y="60" width="750" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Ob3bMCQDeqxFeO93eVG-8" value="- Hỗ trợ tính năng realtime (WebSocket) cho UI (ví dụ cập nhật comment, trạng thái ký)." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="5Ob3bMCQDeqxFeO93eVG-5" vertex="1">
+                    <mxGeometry y="90" width="750" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Ob3bMCQDeqxFeO93eVG-37" value="- Cung cấp các API tạm thời cho tính năng “xem chi tiết hợp đồng”, “dashboard tổng hợp” bằng việc kết hợp nhiều dịch vụ backend." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="5Ob3bMCQDeqxFeO93eVG-5" vertex="1">
+                    <mxGeometry y="120" width="750" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Ob3bMCQDeqxFeO93eVG-13" value="&lt;span style=&quot;font-family: Arial; font-size: 13.3333px;&quot;&gt;Audit &amp;amp; Activity Log Service&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1050" y="740" width="270" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Ob3bMCQDeqxFeO93eVG-14" value="&lt;ul&gt;&lt;li&gt;Lưu mọi hành động quan trọng&amp;nbsp;&lt;/li&gt;&lt;li&gt;API truy vấn lịch sử hoạt động&amp;nbsp;&lt;/li&gt;&lt;li&gt;Cung cấp dữ liệu cho báo cáo &amp;amp; UI&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="5Ob3bMCQDeqxFeO93eVG-13" vertex="1">
+                    <mxGeometry y="30" width="270" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Ob3bMCQDeqxFeO93eVG-17" value="&lt;span style=&quot;font-family: Arial; font-size: 13.3333px;&quot;&gt;Integration / Connectors Service&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1360" y="740" width="250" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Ob3bMCQDeqxFeO93eVG-18" value="&lt;ul&gt;&lt;li&gt;Kết nối ERP/CRM hoặc hệ thống khác&amp;nbsp;&lt;/li&gt;&lt;li&gt;Import/export hợp đồng, sync user info&amp;nbsp;&lt;/li&gt;&lt;li&gt;Ghi log raw callback/response&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="5Ob3bMCQDeqxFeO93eVG-17" vertex="1">
+                    <mxGeometry y="30" width="250" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Ob3bMCQDeqxFeO93eVG-21" value="&lt;span style=&quot;font-family: Arial; font-size: 13.3333px;&quot;&gt;Batch / ETL Service&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1650" y="740" width="270" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Ob3bMCQDeqxFeO93eVG-23" value="&lt;ul&gt;&lt;li&gt;Job định kỳ tổng hợp dữ liệu&amp;nbsp;&lt;/li&gt;&lt;li&gt;Import số lượng lớn hợp đồng&amp;nbsp;&lt;/li&gt;&lt;li&gt;Clean-up dữ liệu cũ&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="5Ob3bMCQDeqxFeO93eVG-21" vertex="1">
+                    <mxGeometry y="30" width="270" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Ob3bMCQDeqxFeO93eVG-25" value="&lt;span style=&quot;font-family: Arial; font-size: 13.3333px;&quot;&gt;Health &amp;amp; Monitoring Agent&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1980" y="740" width="320" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Ob3bMCQDeqxFeO93eVG-26" value="&lt;ul&gt;&lt;li&gt;Healthcheck, readiness, metrics&amp;nbsp;&lt;/li&gt;&lt;li&gt;Lưu heartbeat để phát hiện lỗi nhanh&amp;nbsp;&lt;/li&gt;&lt;li&gt;Kết nối Alertmanager để cảnh báo&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="5Ob3bMCQDeqxFeO93eVG-25" vertex="1">
+                    <mxGeometry y="30" width="320" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Ob3bMCQDeqxFeO93eVG-33" value="&lt;span style=&quot;font-family: Arial; font-size: 13.3333px;&quot;&gt;AI Processing Service&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="930" y="910" width="430" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Ob3bMCQDeqxFeO93eVG-34" value="&lt;ul&gt;&lt;li&gt;Chạy model AI/ML (OCR nâng cao, trích xuất điều khoản, phân loại hợp đồng, tóm tắt, phát hiện rủi ro)&amp;nbsp;&lt;/li&gt;&lt;li&gt;Gọi bởi OCR, Contract, Analytics, Commenting Service&amp;nbsp;&lt;/li&gt;&lt;li&gt;Tích hợp HuggingFace, OpenAI API, hoặc model custom&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="5Ob3bMCQDeqxFeO93eVG-33" vertex="1">
+                    <mxGeometry y="30" width="430" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="SdFOf9L89p93r7IBR_pL-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.474;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="SdFOf9L89p93r7IBR_pL-3" target="aqcjktQyWdQe-DoEnFvB-1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="853" y="1270" as="sourcePoint"/>
+                        <mxPoint x="800" y="1110" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="SdFOf9L89p93r7IBR_pL-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="-40" y="1270" width="2020" height="1150" as="geometry"/>
+                </mxCell>
+                <mxCell id="SdFOf9L89p93r7IBR_pL-6" value="&lt;span&gt;Redis&amp;nbsp;&lt;/span&gt;" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png;labelBackgroundColor=none;fontSize=20;" parent="1" vertex="1">
+                    <mxGeometry x="1650" y="1330" width="130" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="SdFOf9L89p93r7IBR_pL-7" value="" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" parent="1" vertex="1">
+                    <mxGeometry x="1040" y="1310" width="130" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="SdFOf9L89p93r7IBR_pL-11" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Lưu trữ cơ sở dữ liệu&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="1180" width="320" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="SdFOf9L89p93r7IBR_pL-12" value="web - reactjs (typescript)" style="image;html=1;image=img/lib/clip_art/computers/iMac_128x128.png;fontSize=20;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1250" y="-100" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="ivQW63rxDug_hdB-1Zmq-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="15" y="1310" width="535" height="660" as="geometry"/>
+                </mxCell>
+                <mxCell id="SdFOf9L89p93r7IBR_pL-4" value="&lt;span&gt;mySQL&lt;/span&gt;" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png;labelBackgroundColor=none;fontSize=20;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="1340" width="130" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="ivQW63rxDug_hdB-1Zmq-4" value="&lt;span style=&quot;text-align: start; font-size: 10pt; font-family: Arial;&quot; data-sheets-root=&quot;1&quot;&gt;DB chính: MariaDB (chia sẻ), Redis - Tables (MariaDB): users (id, username, password_hash, 2fa_secret), roles (id, name), user_roles (user_id, role_id), tokens_blacklist (token, expiry). - Keys (Redis): token_cache (cache JWT). Liên kết hệ thống: Tables trong schema &#39;auth_db&#39;; prefix &#39;system1_&#39; cho tables; query metadata table như &#39;system_info&#39; chứa system_id.&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="1500" width="260" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="ivQW63rxDug_hdB-1Zmq-5" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 13.3333px; background-color: rgb(236, 236, 236);&quot;&gt;&lt;b&gt;Users&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;PK&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;userID&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;FK1&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;username&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;password_hash&lt;br&gt;2fa_&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="1500" width="180" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="ivQW63rxDug_hdB-1Zmq-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="702.5" y="1310" width="535" height="660" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aqcjktQyWdQe-DoEnFvB-2">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="910" y="320" as="sourcePoint"/>
+                        <mxPoint x="1290" y="100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="&lt;font style=&quot;font-size: 27px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Hệ thống DocGO&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="-300" width="320" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Tương tác người dùng&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1065" y="-130" width="320" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Tầng định tuyến&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="70" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="endArrow=classic;html=1;entryX=0.526;entryY=-0.007;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="aqcjktQyWdQe-DoEnFvB-3" target="aqcjktQyWdQe-DoEnFvB-4">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1150" y="400" as="sourcePoint"/>
+                        <mxPoint x="1200" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Microservice&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry y="470" width="360" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

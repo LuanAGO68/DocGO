@@ -1,0 +1,8 @@
+fastapi==0.103.0
+uvicorn==0.23.2
+sqlalchemy==2.0.20
+pymysql==1.1.0
+boto3==1.28.47
+pydantic==2.4.2
+python-jose[cryptography]==3.3.0
+python-multipart==0.0.6
